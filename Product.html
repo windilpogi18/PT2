@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="Product.css">
+  <title>Mountain Bike Parts</title>
+  <!-- link of box icons -->
+  
+</head>
+
+<body>
+  <h2>Brand of cellphones</h2>
+  
+    <div class="cp"></div>
+    <tfoot >
+        <p class="ft"> <b>Program by:</b> <ins> Wendell Cornejo.</ins> </p>
+        <p ><b>Section: </b><ins>12-Cooper</ins></p>
+        <p><b>Adviser:</b> <ins>Jovite De Vera</ins></p>
+        
+      </tfoot>
+</body> 
+ <script>
+   
+   fetch('Product.json')
+     .then(res => {
+       if (!res.ok) {
+         console.log('Problem');
+         return;
+       }
+       return res.json();
+     })
+     
+     .then((data) => { // Access the entire data object
+       let placeholder = document.querySelector(".cp");
+       let output = "";
+       // Loop through the 'book' array
+       for (let Cp of data.Cp) { // Change 'books' to 'data.book'
+         output += `
+                   <div class="cps">
+                    <img src="${Cp.ProductImage}" >
+                    <p class="title"><b>${Cp.ProductName}</b></p>
+                      <p class="description">${Cp.ProductDescription}</p>
+                       <p class="price"><span>${Cp.ProductPrice}</span></p>
+                       <p class="shop">Shop Now<i class="bx bx-shop-alt"></i></p>
+                       </div>
+                       
+                   `;
+       }
+       placeholder.innerHTML = output; // Ensure this is outside the loop
+     }) // End of then
+     .catch(error => {
+       console.log(error);
+     });
+   </script>
+ 
+</html>

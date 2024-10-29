@@ -1,0 +1,121 @@
+{"Cp":[{
+
+    "ProductName": "Samsung",
+  
+    "ProductDescription": " Mountain bike frame is the core structure of a mountain bike, designed to withstand the rigors of off-road riding by providing durability, strength, and stability.  ",
+  
+    "ProductImage": "1.png",
+  
+    "ProductPrice":"₱ 17,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "ROG",
+  
+    "ProductDescription": " The forged alloy top and bottom clamps ensure a solid connection to the saddle without adding excessive weight. ",
+  
+    "ProductImage": "2.jpeg",
+  
+    "ProductPrice": "₱  10,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Cherry Mobile",
+  
+    "ProductDescription": " A fork typically consists of two blades which are joined at the top by a fork crown.  ",
+  
+    "ProductImage": "3.png",
+  
+    "ProductPrice": "₱ 250,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Huawei",
+  
+    "ProductDescription": " Tires have tread compounds that specialize in grip and tread patterns with large blocky tread for maximum traction. ",
+  
+    "ProductImage": "4.jpeg",
+  
+    "ProductPrice": "₱ 8,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Poco",
+  
+    "ProductDescription": " Handlebar provides more steering control and is favoured for gravel riding. ",
+  
+    "ProductImage": "5.jpeg",
+  
+    "ProductPrice": "₱ 7,000"
+  
+  },
+  
+  { 
+  
+    "ProductName": "oppo",
+  
+    "ProductDescription": " Provides more stability on uneven ground and prevents muscles from tensing up. ",
+  
+    "ProductImage": "6.jpeg",
+  
+    "ProductPrice": "₱ 9,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Itel",
+  
+    "ProductDescription": " Act as a rotating crank, part of the crankset, allowing the rider to apply force to the pedal transferred via the crank arm to the forward gears to drive the bicycle chain. ",
+  
+    "ProductImage": "7.jpeg",
+  
+    "ProductPrice": "₱ 4,000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Infinix",
+  
+    "ProductDescription": " A large standing surface studded with metal pins, resulting in a good grip with the right shoes, even on uneven terrain. ",
+  
+    "ProductImage": "8.jpeg",
+  
+    "ProductPrice": "₱ 9,500"
+  
+  },
+  
+  {
+  
+    "ProductName": "tecno",
+  
+    "ProductDescription": " A large standing surface studded with metal pins, resulting in a good grip with the right shoes, even on uneven terrain. ",
+  
+    "ProductImage": "9.jpeg",
+  
+    "ProductPrice": "₱ 12.000"
+  
+  },
+  
+  {
+  
+    "ProductName": "Iphone",
+  
+    "ProductDescription": " A device for slowing or stopping a vehicle or other moving mechanism by the absorption or transfer of the energy of momentum, usually by means of friction. ",
+  
+    "ProductImage": "10.jpg",
+  
+    "ProductPrice":"₱ 20,000"
+  
+  }
+  
+    ]}

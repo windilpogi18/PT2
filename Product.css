@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    min-height: 100vh;
+    color: black;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: dashed;
+    padding-bottom: 20px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.ft{
+    border-top: dashed;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    padding: 5px;
+}
+.cp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width: 1240px;
+    padding: 20px;
+}
+.cps{
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: gray;
+}
+.cps img{
+    width: 100%;
+    display: block;
+}
+.cps .title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: gray;
+    color: black;
+    
+}
+.cps .description{
+    padding: 0 20px 20px 20px;
+    line-height: 25px;
+    text-align: justify;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cps .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: yellow;
+}
+.cps .shop{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+.cps .shop i{
+    padding-left: 15px;
+}
